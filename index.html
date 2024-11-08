@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Web Moderno</title>
+    <style>
+        /* Stile di base per l'intera pagina */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Stile per la navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .navbar h1 {
+            font-size: 1.5rem;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #ffd700;
+        }
+
+        /* Stile per la sezione contenuto */
+        .content {
+            max-width: 800px;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .content h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .content p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        /* Pulsante moderno */
+        .button {
+            margin-top: 2rem;
+            padding: 0.75rem 2rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1>Il Mio Sito</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#servizi">Servizi</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+        </ul>
+    </header>
+
+    <!-- Contenuto della pagina -->
+    <section class="content">
+        <h2>Benvenuti nel mio sito moderno</h2>
+        <p>
+            Questo è un esempio di sito web con una navbar moderna, progettato con HTML e CSS. 
+            Puoi personalizzare facilmente i colori, i font e il layout.
+        </p>
+        <button class="button">Scopri di più</button>
+    </section>
+
+</body>
+</html>
